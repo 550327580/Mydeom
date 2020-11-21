@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>改写路程</title>
+    <style>
+            .music{
+               /* float: right;
+                padding-left: 50px;
+                */
+                opacity: 0.2;
+            }
+            body{ 
+                
+                background-image:url(img/bg.jpg);
+                background-repeat:no-repeat;
+                background-size: 100% ;
+
+                font-family: "helvetica neue";
+                font-size: 20px;
+                color:tomato;
+                padding: 100px 100px 100px 100px;
+                
+            }
+            li input{
+            display: none;
+            }
+            li.ea input{
+                display: initial;
+            }
+            li.ea span{
+                display: none;
+            }
+    </style>
+    
+
+</head>
+<body>
+                <main>
+                    <div class="music" >
+                        <audio  src="img/mpc.mp3" autoplay controls>  掉了资源</audio>
+                    </div>
+                    
+                <h1>How are you?</h1>
+                <ul id="checklist">
+                    <li>
+                        <span>Yes?</span>
+                        <input value="Yes">
+                    </li>
+                    <li>
+                        <span>No</span>
+                        <input value="No">
+                    </li>
+                    <li>
+                        <span>Oh, 你不妨可以回答一下。</span>
+                        <input value="Oh, 你不妨可以点一下。">
+                    </li>
+                
+                </ul>
+               
+                </main>
+
+
+<script src="script/xx.js"></script>
+</body>
+</html>
